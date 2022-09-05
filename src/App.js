@@ -176,7 +176,7 @@ function App() {
                     <div>9:25</div>
                   </li>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <a
+                    {/* <a
                       class='nav-link active text-primary'
                       aria-current='page'
                       href='https://us04web.zoom.us/j/2308136977?pwd=51ToKa4JoxxJfy8JZy0vVc7f4YJ3Yq.1'
@@ -184,7 +184,8 @@ function App() {
                       rel='noreferrer'
                     >
                       Хореографія
-                    </a>
+                    </a> */}
+                    Хореографія
                     <div>10:25</div>
                   </li>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
