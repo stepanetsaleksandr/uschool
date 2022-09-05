@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/uschool/static/css/main.3635f3c1.css",
-    "main.js": "/uschool/static/js/main.d2f1107f.js",
+    "main.js": "/uschool/static/js/main.de1f6230.js",
     "static/js/787.821dd684.chunk.js": "/uschool/static/js/787.821dd684.chunk.js",
     "index.html": "/uschool/index.html",
     "main.3635f3c1.css.map": "/uschool/static/css/main.3635f3c1.css.map",
-    "main.d2f1107f.js.map": "/uschool/static/js/main.d2f1107f.js.map",
+    "main.de1f6230.js.map": "/uschool/static/js/main.de1f6230.js.map",
     "787.821dd684.chunk.js.map": "/uschool/static/js/787.821dd684.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3635f3c1.css",
-    "static/js/main.d2f1107f.js"
+    "static/js/main.de1f6230.js"
   ]
 }
