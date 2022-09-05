@@ -3,7 +3,9 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <header>Розклад</header>
+      <header>
+        <h1>Розклад 2-Б клас (I група)</h1>
+      </header>
       <main>
         <div className='container'>
           <div className='block'>
@@ -69,7 +71,7 @@ function App() {
                     >
                       Англійська мова
                     </a>
-                    <div>8:30</div>
+                    <div>12:30</div>
                   </li>
                 </ul>
               </div>
@@ -80,24 +82,65 @@ function App() {
               <div className='day-body w-100'>
                 <ul class='list-group'>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='https://us04web.zoom.us/j/2308136977?pwd=51ToKa4JoxxJfy8JZy0vVc7f4YJ3Yq.1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Математика
+                    </a>
+                    <div>8:30</div>
                   </li>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='https://us04web.zoom.us/j/2308136977?pwd=51ToKa4JoxxJfy8JZy0vVc7f4YJ3Yq.1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Українська мова
+                    </a>
+                    <div>9:25</div>
                   </li>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    {/* <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='#'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Фізкультура
+                    </a> */}
+                    Фізкультура
+                    <div>10:25</div>
                   </li>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='https://us04web.zoom.us/j/2308136977?pwd=51ToKa4JoxxJfy8JZy0vVc7f4YJ3Yq.1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Читання
+                    </a>
+                    <div>11:35</div>
                   </li>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='https://us04web.zoom.us/j/2308136977?pwd=51ToKa4JoxxJfy8JZy0vVc7f4YJ3Yq.1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Фінансова абетка
+                    </a>
+                    <div>12:35</div>
                   </li>
                 </ul>
               </div>
@@ -109,24 +152,64 @@ function App() {
               <div className='day-body w-100'>
                 <ul class='list-group'>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='https://us04web.zoom.us/j/2308136977?pwd=51ToKa4JoxxJfy8JZy0vVc7f4YJ3Yq.1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Українська мова
+                    </a>
+                    <div>8:30</div>
                   </li>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='https://us04web.zoom.us/j/2308136977?pwd=51ToKa4JoxxJfy8JZy0vVc7f4YJ3Yq.1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Математика
+                    </a>
+                    <div>9:25</div>
                   </li>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='https://us04web.zoom.us/j/2308136977?pwd=51ToKa4JoxxJfy8JZy0vVc7f4YJ3Yq.1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Хореографія
+                    </a>
+                    <div>10:25</div>
                   </li>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='https://us04web.zoom.us/j/2308136977?pwd=51ToKa4JoxxJfy8JZy0vVc7f4YJ3Yq.1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Дизайн і технології
+                    </a>
+                    <div>12:35</div>
                   </li>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='https://us04web.zoom.us/j/2308136977?pwd=51ToKa4JoxxJfy8JZy0vVc7f4YJ3Yq.1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Виховна година
+                    </a>
+                    <div>13:25</div>
                   </li>
                 </ul>
               </div>
@@ -136,24 +219,65 @@ function App() {
               <div className='day-body w-100'>
                 <ul class='list-group'>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='https://us04web.zoom.us/j/2308136977?pwd=51ToKa4JoxxJfy8JZy0vVc7f4YJ3Yq.1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Я досліджую світ
+                    </a>
+                    <div>8:30</div>
                   </li>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='https://us04web.zoom.us/j/2308136977?pwd=51ToKa4JoxxJfy8JZy0vVc7f4YJ3Yq.1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Математика
+                    </a>
+                    <div>9:25</div>
                   </li>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='https://us04web.zoom.us/j/2308136977?pwd=51ToKa4JoxxJfy8JZy0vVc7f4YJ3Yq.1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Українська мова
+                    </a>
+                    <div>10:25</div>
                   </li>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='https://us04web.zoom.us/j/2308136977?pwd=51ToKa4JoxxJfy8JZy0vVc7f4YJ3Yq.1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Читання
+                    </a>
+                    <div>11:35</div>
                   </li>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    {/* <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='#'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Фізкультура
+                    </a> */}
+                    Фізкультура
+                    <div>12:35</div>
                   </li>
                 </ul>
               </div>
@@ -165,24 +289,52 @@ function App() {
               <div className='day-body w-100'>
                 <ul class='list-group'>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='https://us04web.zoom.us/j/2308136977?pwd=51ToKa4JoxxJfy8JZy0vVc7f4YJ3Yq.1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Читання
+                    </a>
+                    <div>8:30</div>
                   </li>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='https://us04web.zoom.us/j/2308136977?pwd=51ToKa4JoxxJfy8JZy0vVc7f4YJ3Yq.1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Мистецтво
+                    </a>
+                    <div>10:25</div>
                   </li>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='https://us04web.zoom.us/j/2308136977?pwd=51ToKa4JoxxJfy8JZy0vVc7f4YJ3Yq.1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Мистецтво
+                    </a>
+                    <div>11:35</div>
                   </li>
                   <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
-                  </li>
-                  <li class='list-group-item d-flex justify-content-between align-items-start'>
-                    <div>1. Урок</div>
-                    <div>10:30</div>
+                    <a
+                      class='nav-link active text-primary'
+                      aria-current='page'
+                      href='https://us04web.zoom.us/j/2308136977?pwd=51ToKa4JoxxJfy8JZy0vVc7f4YJ3Yq.1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Я досліджую світ
+                    </a>
+                    <div>12:35</div>
                   </li>
                 </ul>
               </div>
